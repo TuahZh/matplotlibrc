@@ -29,7 +29,8 @@
 # You can also deploy your own backend outside of matplotlib by
 # referring to the module name (which must be in the PYTHONPATH) as
 # 'module://my_backend'
-backend      : Agg
+#backend      : Agg
+backend      : MacOSX
 
 # If you are using the Qt4Agg backend, you can choose here
 # to use the PyQt4 bindings or the newer PySide bindings to
@@ -335,7 +336,7 @@ figure.figsize   : 8,6    # figure size in inches, default: 8, 6
 #image.interpolation  : bilinear  # see help(imshow) for options
 #image.cmap   : jet               # gray | jet etc...
 #image.lut    : 256               # the size of the colormap lookup table
-#image.origin : upper             # lower | upper
+image.origin : lower             # lower | upper
 #image.resample  : False
 
 ### CONTOUR PLOTS
